@@ -1,0 +1,84 @@
+/* 
+em - Relative to the element's font size. 
+    Ex: 2em = 2 × current font size.
+
+rem - Relative to the root element's font size. 
+    Ex: 1.5rem = 1.5 × <html> element's font size.
+
+vw - 1% of the viewport's width. 
+    Ex: 10vw = 10% of browser's width.
+
+vh - 1% of the viewport's height. 
+    Ex: 5vh = 5% of browser's height.
+ 
+% - Percentage of the element's font size. 
+    Ex: 120% = 20% larger than the current font size.
+
+*/
+
+/* CSS variable can have global scope by declaring the variable in the :root selector, which targets the highest DOM element: the <html> element. */
+:root{
+    --main-color: #0bcec4;
+
+}
+
+img {
+    /* width: 300px; */
+}
+
+h1 {
+    padding: 5px;
+    font-family: fantasy;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    background-color: var(--main-color);
+    text-align: center;
+}
+
+#author-name-and-date {
+    font-family: Arial;
+    font-size: 12px;
+    color: olive;
+    text-decoration: overline;
+}
+
+p, ol {
+    font-family: 'Times New Roman';
+    font-size: 16px;
+    color: gray;
+}
+
+a {
+    color: blue;
+    font-family: Arial;
+    font-size: 12px;
+}
+footer {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#heart {
+    color: red;
+}
+
+.myName {
+    text-align: center;
+}
+
+
+/* The text-align property changes the horizontal alignment of text for an element. Possible values are: left, right, center, and justify.
+ */
+
+ /* The padding property specifies the padding thickness. Ex: padding: 5px; creates a 5 pixel padding around the content.
+ */
+
+ /* The border property specifies the border's thickness, style, and color. Ex: border: 2px solid blue; creates a solid blue border that is 2 pixels thick.
+  */
+
+/* The margin property specifies the margin thickness. Ex: margin: 10px; creates a 10 pixel margin. */
+
+
+/* Vertical margins of two elements can sometimes combine or collapse into a single vertical space. Horizontal margins never collapse. 
+    
+    Ex: Adjoining margins of two vertically stacked block elements collapse. The resulting margin size equals the top element's bottom margin or the bottom element's top margin, whichever is larger. */
+
